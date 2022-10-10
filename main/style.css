@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+body main{
+    display: flex;
+    flex-direction: column;
+}
+
+.logotitle {
+    display: flex;
+    align-items: center;
+       
+}
+.logotitle > a {
+    padding: 20px;
+}
+
+
+h1 {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.card {
+    display: flex;
+    margin: 5%;
+    padding: 20px;
+    box-shadow: 5px 10px grey;
+
+
+}
+.contact > p > a {
+    color: rgb(128, 128, 128);
+    font-size: small;
+}
+.btn {
+ 
+    width: 200px;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.logowrapper {
+   margin: 10px;
+   color: white;
+}
